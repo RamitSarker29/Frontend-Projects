@@ -92,7 +92,7 @@ JSON.parse(localStorage.getItem("tasks"));
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/todo-list.git
+git clone https://github.com/RamitSarker29/todo-list.git
 ```
 
 2. Open the project folder.
