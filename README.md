@@ -86,13 +86,6 @@ JSON.parse(localStorage.getItem("tasks"));
 - CSS Class Manipulation (`classList.toggle`)
 - `DOMContentLoaded`
 
----
-
-## 📸 Screenshot
-
-*(Add a screenshot here if you upload one.)*
-
----
 
 ## ▶️ Running the Project
 
@@ -124,4 +117,4 @@ No additional setup or dependencies are required.
 ---
 
 ## 👨‍💻 Author
-##Ramit Sarker##
+**Ramit Sarker**
