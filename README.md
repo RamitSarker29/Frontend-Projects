@@ -1,15 +1,18 @@
-# 📝 Dark Mode To-Do List
+# 🎨 Frontend Projects
 
-A simple and responsive To-Do List web application built with **HTML**, **CSS**, and **Vanilla JavaScript**. The application allows users to add, complete, delete, and permanently save tasks using the browser's Local Storage.
+Welcome to my **Frontend Projects** repository!
 
-## 🚀 Features
+This repository contains a collection of projects I built while learning frontend development. Each project focuses on strengthening my understanding of HTML, CSS, JavaScript, DOM manipulation, browser APIs, and modern web development concepts.
 
-- ➕ Add new tasks
-- ✅ Mark tasks as completed
-- ❌ Delete tasks
-- 💾 Tasks persist after page refresh using Local Storage
-- 🌙 Clean dark mode interface
-- 📱 Responsive and minimal UI
+## 🚀 Purpose
+
+The goal of this repository is to:
+
+- Practice frontend development concepts
+- Build real-world mini applications
+- Improve problem-solving skills
+- Learn JavaScript by building projects
+- Track my learning journey
 
 ---
 
@@ -17,104 +20,68 @@ A simple and responsive To-Do List web application built with **HTML**, **CSS**,
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
-
----
-
-## 📂 Project Structure
-
-```
-├── index.html
-├── styles.css
-└── script.js
-```
-
----
-
-## 📖 How It Works
-
-### Adding a Task
-
-- Enter a task in the input field.
-- Click **Add Task**.
-- The task is:
-  - Added to the page
-  - Stored in an array
-  - Saved in Local Storage
-
-### Completing a Task
-
-- Click on a task.
-- The task is marked as completed.
-- Clicking it again toggles the completed state.
-
-### Deleting a Task
-
-- Click the **Delete** button beside a task.
-- The task is removed from:
-  - The webpage
-  - The task array
-  - Local Storage
-
-### Local Storage
-
-Tasks are automatically saved using:
-
-```javascript
-localStorage.setItem("tasks", JSON.stringify(tasks));
-```
-
-When the page loads, saved tasks are retrieved:
-
-```javascript
-JSON.parse(localStorage.getItem("tasks"));
-```
-
----
-
-## 📚 JavaScript Concepts Practiced
-
+- JavaScript (ES6+)
 - DOM Manipulation
-- Event Listeners
-- Event Propagation (`stopPropagation`)
-- Dynamic Element Creation
-- Template Literals
-- Arrays (`push`, `filter`, `forEach`)
-- Objects
-- Arrow Functions
-- Local Storage API
-- CSS Class Manipulation (`classList.toggle`)
-- `DOMContentLoaded`
-
-
-## ▶️ Running the Project
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/RamitSarker29/todo-list.git
-```
-
-2. Open the project folder.
-
-3. Open `index.html` in your browser.
-
-No additional setup or dependencies are required.
+- Browser APIs
+- Local Storage
 
 ---
 
-## 🌱 Future Improvements
+## 📂 Projects
 
-- Edit existing tasks
-- Due dates
-- Task categories
-- Search functionality
-- Drag-and-drop task ordering
-- Dark/Light mode toggle
-- Filter tasks (All, Active, Completed)
-- Clear completed tasks
+| Project | Description |
+|---------|-------------|
+| 📝 To-Do List | Add, complete, delete, and save tasks using Local Storage. |
+| *(More projects coming soon...)* | 🚧 |
+
+---
+
+## 📚 Concepts Practiced
+
+- Semantic HTML
+- Responsive CSS
+- Flexbox
+- DOM Manipulation
+- Event Handling
+- Event Delegation
+- Local Storage
+- JavaScript Objects & Arrays
+- Functions
+- ES6 Features
+- Asynchronous JavaScript
+- Promises
+- Async/Await
+
+---
+
+## 🎯 Goals
+
+I'm continuously expanding this repository by building projects that improve my frontend development skills.
+
+---
+
+## 💡 What I'm Learning
+
+- Writing clean and maintainable JavaScript
+- Creating responsive user interfaces
+- Working with browser APIs
+- Building interactive web applications
+- Improving code organization and readability
+
+---
+
+## 🤝 Feedback
+
+I'm always open to suggestions and feedback. If you have ideas for improvements or best practices, feel free to open an issue or submit a pull request.
+
+---
+
+## 📌 Note
+
+This repository is part of my learning journey. As I continue learning, I'll revisit older projects to improve them using better practices and modern techniques.
 
 ---
 
 ## 👨‍💻 Author
+
 **Ramit Sarker**
