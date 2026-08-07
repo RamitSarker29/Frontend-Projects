@@ -24,6 +24,7 @@ The goal of this repository is to:
 - DOM Manipulation
 - Browser APIs
 - Local Storage
+- Flexbox
 
 ---
 
@@ -31,6 +32,7 @@ The goal of this repository is to:
 
 | Project | Description |
 |---------|-------------|
+| ✨ Quote Generator | Displays a random motivational quote from a collection of quotes using JavaScript and DOM manipulation. |
 | 📝 To-Do List | Add, complete, delete, and save tasks using Local Storage. |
 | *(More projects coming soon...)* | 🚧 |
 
@@ -47,6 +49,7 @@ The goal of this repository is to:
 - Local Storage
 - JavaScript Objects & Arrays
 - Functions
+- Random Number Generation (`Math.random()`, `Math.floor()`)
 - ES6 Features
 - Asynchronous JavaScript
 - Promises
@@ -56,7 +59,7 @@ The goal of this repository is to:
 
 ## 🎯 Goals
 
-I'm continuously expanding this repository by building projects that improve my frontend development skills.
+I'm continuously expanding this repository by building projects that improve my frontend development skills. Each project introduces new concepts while reinforcing previous ones.
 
 ---
 
@@ -67,6 +70,7 @@ I'm continuously expanding this repository by building projects that improve my 
 - Working with browser APIs
 - Building interactive web applications
 - Improving code organization and readability
+- Breaking larger problems into smaller, manageable components
 
 ---
 
@@ -78,7 +82,7 @@ I'm always open to suggestions and feedback. If you have ideas for improvements 
 
 ## 📌 Note
 
-This repository is part of my learning journey. As I continue learning, I'll revisit older projects to improve them using better practices and modern techniques.
+This repository documents my frontend development journey. As I continue learning, I'll revisit older projects to refactor them, improve their design, and apply better coding practices.
 
 ---
 
