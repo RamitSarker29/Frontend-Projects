@@ -2,7 +2,7 @@
 
 A simple Quote Generator built with **HTML**, **CSS**, and **JavaScript**.
 
-Click the **"Get New Quote"** button to display a random motivational quote from a predefined collection. This project was built to practice JavaScript fundamentals such as DOM manipulation, arrays, event listeners, and random number generation. :contentReference[oaicite:0]{index=0}
+Click the **"Get New Quote"** button to display a random motivational quote from a predefined collection. This project was built to practice JavaScript fundamentals such as DOM manipulation, arrays, event listeners, and random number generation.
 
 ---
 
@@ -12,7 +12,7 @@ Click the **"Get New Quote"** button to display a random motivational quote from
 - Responsive and clean UI
 - Smooth button hover effect
 - Built using vanilla JavaScript
-- Beginner-friendly project :contentReference[oaicite:1]{index=1}
+- Beginner-friendly project 
 
 ---
 
@@ -46,7 +46,7 @@ While building this project, I practiced:
 - Storing data in arrays
 - Generating random array indexes using `Math.random()` and `Math.floor()`
 - Updating webpage content using `textContent`
-- Styling layouts using Flexbox :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+- Styling layouts using Flexbox
 
 ---
 
@@ -60,7 +60,7 @@ git clone https://github.com/RamitSarker29/quote-generator.git
 
 2. Open `index.html` in your browser.
 
-No installation or dependencies required. :contentReference[oaicite:4]{index=4}
+No installation or dependencies required.
 
 ---
 
