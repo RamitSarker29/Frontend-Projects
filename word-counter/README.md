@@ -4,6 +4,12 @@ A simple **Word Counter** built with **HTML, CSS, and JavaScript**.
 
 This project updates the character and word count **live** as the user types. It was built to practice JavaScript fundamentals such as DOM manipulation, event listeners, string methods, and real-time UI updates.
 
+
+## 📸 Preview
+
+![Movie Collection](./screen_shot.png)
+
+
 ## ✨ Features
 
 - Live character count (including spaces)
