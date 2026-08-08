@@ -6,8 +6,7 @@ This project was built as a JavaScript practice project to become more comfortab
 
 ## 📸 Preview
 
-(./movies-list/Screenshot 2026-08-08 063806.png)
-
+![Movie Collection](./screenshot.png)
 ## ✨ Features
 
 - ➕ Add movies to your collection
