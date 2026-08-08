@@ -1,0 +1,164 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, sans-serif;
+    /* Rich radial dark theme gradient */
+    background: radial-gradient(circle at 50% 20%, #2e1d47 0%, #170d28 50%, #0b0614 100%);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    padding: 32px 28px;
+    border-radius: 28px;
+    width: 100%;
+    max-width: 380px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5),
+                0 0 50px rgba(168, 85, 247, 0.12);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px 16px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.25s ease;
+}
+
+input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+input[type="text"]:focus {
+    border-color: rgba(168, 85, 247, 0.6);
+    box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.2);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+button {
+    padding: 12px 18px;
+    background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%);
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(124, 58, 237, 0.4);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    white-space: nowrap;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #b666ff 0%, #8b5cf6 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(124, 58, 237, 0.5);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#weather-info {
+    margin-top: 10px;
+    padding: 28px 20px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+#city-name {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+}
+
+/* Elegant hero temperature visual */
+#temperature {
+    font-size: 52px;
+    font-weight: 200;
+    line-height: 1.1;
+    margin: 10px 0 6px 0;
+    letter-spacing: -1.5px;
+    background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.7) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Adds a unit indicator style if degree symbols aren't included in script */
+#temperature::after {
+    content: '°C';
+    font-size: 24px;
+    font-weight: 300;
+    vertical-align: top;
+    margin-left: 2px;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.6);
+}
+
+#description {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#error-message {
+    color: #f87171;
+    background: rgba(239, 68, 68, 0.12);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 16px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
