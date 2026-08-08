@@ -24,19 +24,23 @@ The goal of this repository is to:
 - DOM Manipulation
 - Browser APIs
 - Local Storage
+- Fetch API
+- OpenWeatherMap API
 - Flexbox
 
 ---
 
 ## 📂 Projects
 
-| Project                          | Description                                                                                             |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| ✨ Quote Generator                | Displays a random motivational quote from a collection using JavaScript and DOM manipulation.           |
-| 📝 Word Counter                  | Counts words, characters (with spaces), and characters (without spaces) in real time as the user types. |
-| 📋 To-Do List                    | Add, complete, delete, and save tasks using Local Storage.                                              |
+| Project                          | Description                                                                                                       |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ✨ Quote Generator                | Displays a random motivational quote from a collection using JavaScript and DOM manipulation.                     |
+| 📝 Word Counter                  | Counts words, characters (with spaces), and characters (without spaces) in real time as the user types.           |
+| 📋 To-Do List                    | Add, complete, delete, and save tasks using Local Storage.                                                        |
 | 🎬 Movie Collection              | Add movies to a collection, display them dynamically, delete movies, and save the collection using Local Storage. |
-| *(More projects coming soon...)* | 🚧                                                                                                      |
+| 🌤️ Weather App                  | Search for a city and display its current temperature and weather description using the OpenWeatherMap API.      |
+| ⌨️ Typing Speed Test             | Generates random typing sentences, measures typing time, calculates WPM, and tracks typing mistakes.              |
+| *(More projects coming soon...)* | 🚧                                                                                                                |
 
 ---
 
@@ -63,8 +67,19 @@ The goal of this repository is to:
 - `innerHTML`
 - JSON (`JSON.stringify()`, `JSON.parse()`)
 - Random Number Generation (`Math.random()`, `Math.floor()`)
+- `Date.now()`
+- String Comparison
+- Character-by-Character Comparison
+- Basic Calculations
+- `async/await`
+- Promises
+- `fetch()`
+- API Requests
+- HTTP Response Handling
+- Error Handling (`try...catch`)
 - ES6 Features
 - Template Literals
+- Destructuring
 - Browser APIs
 
 ---
@@ -84,6 +99,13 @@ I'm continuously expanding this repository by building projects that introduce n
 - Working with arrays and JavaScript data
 - Using Local Storage to persist data
 - Rendering data dynamically
+- Working with APIs and asynchronous JavaScript
+- Fetching and displaying external data
+- Handling API errors
+- Working with timestamps and elapsed time
+- Calculating Words Per Minute (WPM)
+- Comparing strings and individual characters
+- Tracking user input and mistakes
 - Solving programming problems step by step
 - Breaking larger problems into smaller, manageable components
 - Debugging and fixing bugs independently
