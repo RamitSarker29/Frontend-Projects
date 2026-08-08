@@ -4,6 +4,11 @@ Welcome to my **Frontend Projects** repository!
 
 This repository contains a collection of projects I built while learning frontend development. Each project helps me strengthen my understanding of HTML, CSS, JavaScript, DOM manipulation, browser APIs, and modern web development concepts.
 
+
+## 📸 Preview
+
+![Movie Collection](./screen_shot.png)
+
 ## 🚀 Purpose
 
 The goal of this repository is to:
