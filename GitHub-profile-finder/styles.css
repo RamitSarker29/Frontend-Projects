@@ -1,0 +1,172 @@
+/* Import modern typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --bg-gradient: radial-gradient(circle at center, #0f140e 0%, #050505 100%);
+    --card-bg: rgba(18, 22, 18, 0.75);
+    --card-border: rgba(57, 255, 20, 0.25);
+    --input-bg: #0d0f0d;
+    --text-primary: #f0fdf4;
+    --text-muted: #a3b8a8;
+    --text-placeholder: #526356;
+    --accent-color: #39ff14; /* Neon Green */
+    --accent-hover: #2ee00f;
+    --error-color: #ff3366; /* Neon Red/Pink for errors */
+    --glow-color: rgba(57, 255, 20, 0.35);
+    --glow-intense: rgba(57, 255, 20, 0.75);
+    --glow-error: rgba(255, 51, 102, 0.35);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #050505;
+    background-image: var(--bg-gradient);
+    color: var(--text-primary);
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Search Box Container */
+.container {
+    background: var(--card-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 24px;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.9),
+                0 0 15px rgba(57, 255, 20, 0.1);
+    display: flex;
+    gap: 12px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container:hover {
+    border-color: rgba(57, 255, 20, 0.4);
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.95),
+                0 0 20px var(--glow-color);
+}
+
+#inputText {
+    flex: 1;
+    background: var(--input-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    outline: none;
+    transition: all 0.25s ease;
+}
+
+#inputText::placeholder {
+    color: var(--text-placeholder);
+}
+
+#inputText:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 12px var(--glow-color);
+}
+
+#searchBtn {
+    background: var(--accent-color);
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 24px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 0 15px var(--glow-color);
+}
+
+#searchBtn:hover {
+    background: var(--accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px var(--glow-intense);
+}
+
+#searchBtn:active {
+    transform: translateY(0);
+}
+
+/* User Details Card */
+#userDetails {
+    background: var(--card-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 28px;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.9),
+                0 0 15px rgba(57, 255, 20, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#userDetails p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(57, 255, 20, 0.08);
+}
+
+#userDetails p:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#userDetails p span, 
+#userDetails p strong {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+/* Error Message Box */
+#errorMessage {
+    background: rgba(30, 10, 15, 0.85);
+    border: 1px solid var(--error-color);
+    color: var(--error-color);
+    border-radius: 12px;
+    padding: 14px 20px;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.95rem;
+    box-shadow: 0 0 15px var(--glow-error);
+}
+
+/* Utility Class for toggling display via JavaScript */
+.hidden {
+    display: none !important;
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    #searchBtn {
+        width: 100%;
+    }
+}
