@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Finder</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="inputText" placeholder="Enter Your GitHub Username ">
+        <button id="searchBtn">Search</button>
+    </div>
+    <div id="userDetails" class="hidden">
+        <p id="name">Name: </p>
+        <p id="bioShow">Bio: </p>
+        <p id="followersCount">Followers: </p>
+        <p id="followingCount">Following: </p>
+        <p id="pub_rep">Public Repos: </p>
+    </div>
+    <p id="errorMessage" class="hidden">User not found</p>
+
+    <script src="./script.js"></script>
+</body>
+</html>
