@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bg-black: #08080a;
+    --card-bg: rgba(18, 18, 22, 0.85);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --red-primary: #e50914;
+    --red-hover: #ff1e27;
+    --red-glow: rgba(229, 9, 20, 0.35);
+    --text-primary: #ffffff;
+    --text-secondary: #a1a1aa;
+    --gold: #fbbf24;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at 50% 0%, #2a080c 0%, var(--bg-black) 75%);
+    background-attachment: fixed;
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3rem 1.5rem;
+}
+
+/* Outer Container */
+.container {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+/* App Heading */
+.container h1 {
+    font-size: 2.25rem;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #ffffff 30%, var(--red-primary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+/* Search Bar Styling */
+.container > input[type="text"] {
+    width: 100%;
+    padding: 1.1rem 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--card-border);
+    background: rgba(15, 15, 18, 0.9);
+    color: var(--text-primary);
+    font-size: 1.05rem;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.container > input[type="text"]:focus {
+    border-color: var(--red-primary);
+    box-shadow: 0 0 25px var(--red-glow);
+    background: #121216;
+}
+
+.container > button {
+    padding: 1rem;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--red-primary), #8e050c);
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px var(--red-glow);
+}
+
+.container > button:hover {
+    background: linear-gradient(135deg, var(--red-hover), var(--red-primary));
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(229, 9, 20, 0.5);
+}
+
+.container > button:active {
+    transform: translateY(0);
+}
+
+/* Movie Details Card */
+#movieDetails {
+    background: var(--card-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* Large Poster Display */
+#moviePoster {
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9), 0 0 30px rgba(229, 9, 20, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.4s ease;
+}
+
+#moviePoster:hover {
+    transform: scale(1.015);
+}
+
+/* Movie Name / Title */
+#movieDetails > p#movieName {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    line-height: 1.2;
+    border-bottom: none;
+}
+
+/* Overview Box */
+#movieDetails > p#movieOverview {
+    width: 100%;
+    color: #e4e4e7;
+    background: linear-gradient(180deg, rgba(229, 9, 20, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+    padding: 1.25rem 1.5rem;
+    border-radius: 14px;
+    border: 1px solid rgba(229, 9, 20, 0.2);
+    border-left: 5px solid var(--red-primary);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 1rem 0 1.5rem 0;
+}
+
+/* Individual Metadata Paragraphs */
+#movieDetails > p {
+    width: 100%;
+    padding: 0.85rem 0;
+    font-size: 0.98rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#movieDetails > p:last-of-type {
+    border-bottom: none;
+}
+
+/* IMDb Rating Accent */
+#movieDetails > p#movieRating {
+    color: var(--gold);
+    font-weight: 700;
+}
+
+/* Error Message */
+#errorMsg {
+    text-align: center;
+    color: #fca5a5;
+    background: rgba(229, 9, 20, 0.15);
+    border: 1px solid rgba(229, 9, 20, 0.3);
+    padding: 1.2rem;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+/* Utility */
+.hidden {
+    display: none !important;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    body {
+        padding: 2rem 1rem;
+    }
+
+    #movieDetails {
+        padding: 1.5rem;
+    }
+
+    #movieDetails > p#movieName {
+        font-size: 1.75rem;
+    }
+}
