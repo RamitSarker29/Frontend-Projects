@@ -10,15 +10,15 @@ This project allows users to search for movies and retrieve movie information di
 
 ### 🏠 Home Page
 
-![Movie Finder Home](./assets/movie-finder-home.png)
+![Movie Finder Home](./part1.png)
 
 ### 🔎 Movie Search
 
-![Movie Finder Search](./assets/movie-finder-search.png)
+![Movie Finder Search](./part2.png)
 
 ### 🎬 Movie Details
 
-![Movie Finder Details](./assets/movie-finder-details.png)
+![Movie Finder Details](./part3.png)
 
 ---
 
