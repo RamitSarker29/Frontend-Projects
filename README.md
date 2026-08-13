@@ -48,6 +48,7 @@ The goal of this repository is to:
 | ⌨️ Typing Speed Test             | Generates random typing sentences, measures typing time, calculates WPM, and tracks typing mistakes.                                          |
 | 🔎 GitHub Profile Finder         | Search for a GitHub username and retrieve profile information using the GitHub REST API.                                                      |
 | 🛒 Simple E-Commerce Cart        | Add products to a shopping cart, remove items, calculate the total, persist cart data with Local Storage, and clear the cart during checkout. |
+| 💰 Expense Tracker               | Add expenses, calculate total spending, delete individual expenses, and persist expense data using Local Storage.                             |
 | *(More projects coming soon...)* | 🚧                                                                                                                                            |
 
 ---
@@ -57,9 +58,12 @@ The goal of this repository is to:
 * Semantic HTML
 * Responsive CSS
 * Flexbox
+* Media Queries
 * DOM Manipulation
 * Event Handling
 * Event Delegation
+* Form Submission
+* `preventDefault()`
 * Local Storage
 * JavaScript Objects & Arrays
 * Functions
@@ -68,7 +72,7 @@ The goal of this repository is to:
 * String Methods (`length`, `split()`, `replaceAll()`, `trim()`)
 * Input Events (`input`)
 * Click Events
-* Array Methods (`push()`, `find()`, `findIndex()`, `splice()`, `forEach()`)
+* Array Methods (`push()`, `find()`, `findIndex()`, `filter()`, `splice()`, `forEach()`, `reduce()`)
 * Dynamic DOM Elements (`createElement()`)
 * `appendChild()`
 * `textContent`
@@ -79,6 +83,8 @@ The goal of this repository is to:
 * String Comparison
 * Character-by-Character Comparison
 * Basic Calculations
+* `parseFloat()`
+* `isNaN()`
 * `async/await`
 * Promises
 * `fetch()`
@@ -127,6 +133,13 @@ As the projects become more complex, I'm focusing on writing the logic myself, d
 * Creating and removing dynamic DOM elements
 * Persisting application data across page refreshes
 * Finding and modifying data inside arrays
+* Calculating totals with `reduce()`
+* Filtering data with `filter()`
+* Handling form submissions
+* Validating user input
+* Using `preventDefault()` to control form behavior
+* Managing application state
+* Keeping Local Storage and the UI synchronized
 * Breaking larger problems into smaller, manageable components
 * Debugging and fixing bugs independently
 * Solving programming problems step by step
