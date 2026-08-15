@@ -1,6 +1,3 @@
-Here’s the version I’d actually put in your GitHub repo:
-
-````markdown
 # 🎯 Guess The Number Game
 
 A simple and interactive **Guess The Number Game** built with HTML, CSS, and JavaScript.
