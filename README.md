@@ -49,6 +49,7 @@ The goal of this repository is to:
 | ⌨️ Typing Speed Test | Generates random typing sentences, measures typing time, calculates WPM, and tracks typing mistakes. |
 | 🔎 GitHub Profile Finder | Search for a GitHub username and retrieve profile information using the GitHub REST API. |
 | 🎬 Movie Finder | Search for a movie and retrieve its poster, details, cast, rating, runtime, genre, release date, director, and awards using the OMDb API. |
+| 🎯 Guess The Number Game | Choose a number range, generate a random number, and receive Higher or Lower hints until the correct number is guessed. |
 | 🛒 Simple E-Commerce Cart | Add products to a shopping cart, remove items, calculate the total, persist cart data with Local Storage, and clear the cart during checkout. |
 | 💰 Expense Tracker | Add expenses, calculate total spending, delete individual expenses, and persist expense data using Local Storage. |
 | *(More projects coming soon...)* | 🚧 |
@@ -70,6 +71,7 @@ The goal of this repository is to:
 * JavaScript Objects & Arrays
 * Functions
 * Variables
+* Variable Scope
 * Conditional Statements (`if...else`)
 * String Methods (`length`, `split()`, `replaceAll()`, `trim()`)
 * Input Events (`input`)
@@ -77,6 +79,7 @@ The goal of this repository is to:
 * Array Methods (`push()`, `find()`, `findIndex()`, `filter()`, `splice()`, `forEach()`, `reduce()`)
 * Dynamic DOM Elements (`createElement()`)
 * `appendChild()`
+* `prepend()`
 * `textContent`
 * `innerHTML`
 * JSON (`JSON.stringify()`, `JSON.parse()`)
@@ -102,6 +105,10 @@ The goal of this repository is to:
 * Dynamic API Data Rendering
 * API Response Handling
 * Browser APIs
+* Application State Management
+* Showing and Hiding Elements
+* Managing Event Listeners
+* Generating Random Values Within a Range
 
 ---
 
@@ -137,6 +144,15 @@ As the projects become more complex, I'm focusing on writing the logic myself, d
 * Using object destructuring with API data
 * Displaying images using URLs received from APIs
 * Dynamically updating multiple UI elements with API data
+* Generating random numbers within a specific range
+* Working with user-defined ranges
+* Comparing values and providing dynamic feedback
+* Managing game state with JavaScript variables
+* Understanding variable scope
+* Showing and hiding UI elements based on application state
+* Dynamically creating and removing DOM elements
+* Managing event listeners
+* Resetting application state
 * Working with timestamps and elapsed time
 * Calculating Words Per Minute (WPM)
 * Comparing strings and individual characters
@@ -178,3 +194,4 @@ The projects are not meant to be perfect. They represent my progress as I learn,
 ## 👨‍💻 Author
 
 **Ramit Sarker**
+The biggest additions from the Guess The Number project are **variable scope, application state, random number generation within a range, dynamic feedback, showing/hiding UI, and managing event listeners**. Those are worth documenting because they're genuinely new concepts you practiced in that project.
