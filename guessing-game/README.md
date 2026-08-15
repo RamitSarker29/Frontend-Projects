@@ -201,5 +201,3 @@ The goal was to practice JavaScript by building an interactive application and u
 ## 👨‍💻 Author
 
 **Ramit Sarker**
-
-``
