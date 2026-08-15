@@ -29,6 +29,7 @@ The goal of this repository is to:
 * Fetch API
 * REST APIs
 * OpenWeatherMap API
+* OMDb API
 * Flexbox
 * Async/Await
 * Promises
@@ -38,18 +39,19 @@ The goal of this repository is to:
 
 ## 📂 Projects
 
-| Project                          | Description                                                                                                                                   |
+| Project | Description |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| ✨ Quote Generator                | Displays a random motivational quote from a collection using JavaScript and DOM manipulation.                                                 |
-| 📝 Word Counter                  | Counts words, characters with spaces, and characters without spaces in real time as the user types.                                           |
-| 📋 To-Do List                    | Add, complete, delete, and save tasks using Local Storage.                                                                                    |
-| 🎬 Movie Collection              | Add movies to a collection, display them dynamically, delete movies, and save the collection using Local Storage.                             |
-| 🌤️ Weather App                  | Search for a city and display its current temperature and weather description using the OpenWeatherMap API.                                   |
-| ⌨️ Typing Speed Test             | Generates random typing sentences, measures typing time, calculates WPM, and tracks typing mistakes.                                          |
-| 🔎 GitHub Profile Finder         | Search for a GitHub username and retrieve profile information using the GitHub REST API.                                                      |
-| 🛒 Simple E-Commerce Cart        | Add products to a shopping cart, remove items, calculate the total, persist cart data with Local Storage, and clear the cart during checkout. |
-| 💰 Expense Tracker               | Add expenses, calculate total spending, delete individual expenses, and persist expense data using Local Storage.                             |
-| *(More projects coming soon...)* | 🚧                                                                                                                                            |
+| ✨ Quote Generator | Displays a random motivational quote from a collection using JavaScript and DOM manipulation. |
+| 📝 Word Counter | Counts words, characters with spaces, and characters without spaces in real time as the user types. |
+| 📋 To-Do List | Add, complete, delete, and save tasks using Local Storage. |
+| 🎬 Movie Collection | Add movies to a collection, display them dynamically, delete movies, and save the collection using Local Storage. |
+| 🌤️ Weather App | Search for a city and display its current temperature and weather description using the OpenWeatherMap API. |
+| ⌨️ Typing Speed Test | Generates random typing sentences, measures typing time, calculates WPM, and tracks typing mistakes. |
+| 🔎 GitHub Profile Finder | Search for a GitHub username and retrieve profile information using the GitHub REST API. |
+| 🎬 Movie Finder | Search for a movie and retrieve its poster, details, cast, rating, runtime, genre, release date, director, and awards using the OMDb API. |
+| 🛒 Simple E-Commerce Cart | Add products to a shopping cart, remove items, calculate the total, persist cart data with Local Storage, and clear the cart during checkout. |
+| 💰 Expense Tracker | Add expenses, calculate total spending, delete individual expenses, and persist expense data using Local Storage. |
+| *(More projects coming soon...)* | 🚧 |
 
 ---
 
@@ -84,6 +86,7 @@ The goal of this repository is to:
 * Character-by-Character Comparison
 * Basic Calculations
 * `parseFloat()`
+* `parseInt()`
 * `isNaN()`
 * `async/await`
 * Promises
@@ -95,7 +98,9 @@ The goal of this repository is to:
 * ES6 Features
 * Template Literals
 * Object Destructuring
-* `data-*` Attributes
+* Dynamic Images
+* Dynamic API Data Rendering
+* API Response Handling
 * Browser APIs
 
 ---
@@ -126,6 +131,12 @@ As the projects become more complex, I'm focusing on writing the logic myself, d
 * Handling API errors
 * Working with JSON responses
 * Using `async/await` with API requests
+* Building API URLs dynamically from user input
+* Encoding user input for API requests
+* Extracting useful information from API responses
+* Using object destructuring with API data
+* Displaying images using URLs received from APIs
+* Dynamically updating multiple UI elements with API data
 * Working with timestamps and elapsed time
 * Calculating Words Per Minute (WPM)
 * Comparing strings and individual characters
