@@ -194,4 +194,3 @@ The projects are not meant to be perfect. They represent my progress as I learn,
 ## 👨‍💻 Author
 
 **Ramit Sarker**
-The biggest additions from the Guess The Number project are **variable scope, application state, random number generation within a range, dynamic feedback, showing/hiding UI, and managing event listeners**. Those are worth documenting because they're genuinely new concepts you practiced in that project.
