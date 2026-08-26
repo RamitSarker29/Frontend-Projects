@@ -1,0 +1,11 @@
+const h1 = document.querySelector('h1')
+window.addEventListener('keydown' , (e) => {
+
+    if (e.key === ' ') {
+        h1.textContent = 'SpaceBar'
+    }
+    else {
+        h1.textContent = e.key
+
+    }
+})
