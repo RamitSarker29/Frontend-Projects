@@ -54,6 +54,7 @@ The goal of this repository is to:
 | 💰 Expense Tracker | Add expenses, calculate total spending, delete individual expenses, and persist expense data using Local Storage. |
 | ⌨️ Key Press Detector | Detects keyboard key presses and displays the pressed key on the screen using JavaScript keyboard events. |
 | 📁 File Picker UI | Replaces the default file input with a custom button that opens the file selector and displays the selected filename on the button. |
+| 👤 Dynamic Profile Card Generator | Takes user-provided profile information and dynamically creates profile cards using JavaScript DOM manipulation. |
 | *(More projects coming soon...)* | 🚧 |
 
 ---
@@ -82,6 +83,7 @@ The goal of this repository is to:
 - Change Events (`change`)
 - Array Methods (`push()`, `find()`, `findIndex()`, `filter()`, `splice()`, `forEach()`, `reduce()`)
 - Dynamic DOM Elements (`createElement()`)
+- `append()`
 - `appendChild()`
 - `prepend()`
 - `textContent`
@@ -132,8 +134,14 @@ The goal of this repository is to:
 - Accessing File Names with `.name`
 - Programmatically Triggering Elements
 - Customizing Native HTML Controls
+- Creating Nested DOM Structures
+- Dynamically Building UI Components
+- Creating Profile Cards from User Input
+- Working with Form Input Values
+- Clearing Form Inputs
 - CSS Transitions
 - CSS Hover States
+- `object-fit: cover`
 
 ---
 
@@ -182,7 +190,6 @@ As the projects become more complex, I'm focusing on writing the logic myself, d
 - Calculating Words Per Minute (WPM)
 - Comparing strings and individual characters
 - Tracking user input and mistakes
-- Creating and removing dynamic DOM elements
 - Persisting application data across page refreshes
 - Finding and modifying data inside arrays
 - Calculating totals with `reduce()`
@@ -200,6 +207,11 @@ As the projects become more complex, I'm focusing on writing the logic myself, d
 - Creating custom interfaces for native HTML controls
 - Triggering hidden elements programmatically
 - Updating UI based on file selection
+- Creating HTML elements dynamically with JavaScript
+- Building nested DOM structures
+- Creating reusable UI components
+- Using user input to generate dynamic content
+- Reading and clearing form values
 - Breaking larger problems into smaller, manageable components
 - Debugging and fixing bugs independently
 - Solving programming problems step by step
