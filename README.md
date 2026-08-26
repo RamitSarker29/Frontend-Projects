@@ -53,6 +53,7 @@ The goal of this repository is to:
 | 🛒 Simple E-Commerce Cart | Add products to a shopping cart, remove items, calculate the total, persist cart data with Local Storage, and clear the cart during checkout. |
 | 💰 Expense Tracker | Add expenses, calculate total spending, delete individual expenses, and persist expense data using Local Storage. |
 | ⌨️ Key Press Detector | Detects keyboard key presses and displays the pressed key on the screen using JavaScript keyboard events. |
+| 📁 File Picker UI | Replaces the default file input with a custom button that opens the file selector and displays the selected filename on the button. |
 | *(More projects coming soon...)* | 🚧 |
 
 ---
@@ -122,6 +123,17 @@ The goal of this repository is to:
 - Reading Keyboard Input
 - Working with the JavaScript Event Object
 - Updating the DOM based on User Interaction
+- File Input
+- File Selection
+- `change` Event with File Inputs
+- Accessing Selected Files
+- `e.target.files`
+- Reading File Properties
+- Accessing File Names with `.name`
+- Programmatically Triggering Elements
+- Customizing Native HTML Controls
+- CSS Transitions
+- CSS Hover States
 
 ---
 
@@ -183,6 +195,11 @@ As the projects become more complex, I'm focusing on writing the logic myself, d
 - Listening for keyboard events
 - Reading values from keyboard event objects
 - Updating webpage content based on keyboard input
+- Working with file inputs and selected files
+- Accessing file information through the event object
+- Creating custom interfaces for native HTML controls
+- Triggering hidden elements programmatically
+- Updating UI based on file selection
 - Breaking larger problems into smaller, manageable components
 - Debugging and fixing bugs independently
 - Solving programming problems step by step
