@@ -19,23 +19,24 @@ The goal of this repository is to:
 
 ## 📂 Projects
 
-| Project | Description |
-| --- | --- |
-| ✨ Quote Generator | Displays a random motivational quote from a collection using JavaScript and DOM manipulation. |
-| 📝 Word Counter | Counts words, characters with spaces, and characters without spaces in real time as the user types. |
-| 📋 To-Do List | Add, complete, delete, and save tasks using Local Storage. |
-| 🎬 Movie Collection | Add movies to a collection, display them dynamically, delete movies, and save the collection using Local Storage. |
-| 🌤️ Weather App | Search for a city and display its current temperature and weather description using the OpenWeatherMap API. |
-| ⌨️ Typing Speed Test | Generates random typing sentences, measures typing time, calculates WPM, and tracks typing mistakes. |
-| 🔎 GitHub Profile Finder | Search for a GitHub username and retrieve profile information using the GitHub REST API. |
-| 🎬 Movie Finder | Search for a movie and retrieve its poster, details, cast, rating, runtime, genre, release date, director, and awards using the OMDb API. |
-| 🎯 Guess The Number Game | Choose a number range, generate a random number, and receive Higher or Lower hints until the correct number is guessed. |
-| 🛒 Simple E-Commerce Cart | Add products to a shopping cart, remove items, calculate the total, persist cart data with Local Storage, and clear the cart during checkout. |
-| 💰 Expense Tracker | Add expenses, calculate total spending, delete individual expenses, and persist expense data using Local Storage. |
-| ⌨️ Key Press Detector | Detects keyboard key presses and displays the pressed key on the screen using JavaScript keyboard events. |
-| 📁 File Picker UI | Replaces the default file input with a custom button that opens the file selector and displays the selected filename on the button. |
-| 👤 Dynamic Profile Card Generator | Takes user-provided profile information and dynamically creates profile cards using JavaScript DOM manipulation. |
-| *(More projects coming soon...)* | 🚧 |
+| Project                           | Description                                                                                                                                   |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| ✨ Quote Generator                 | Displays a random motivational quote from a collection using JavaScript and DOM manipulation.                                                 |
+| 📝 Word Counter                   | Counts words, characters with spaces, and characters without spaces in real time as the user types.                                           |
+| 📋 To-Do List                     | Add, complete, delete, and save tasks using Local Storage.                                                                                    |
+| 🎬 Movie Collection               | Add movies to a collection, display them dynamically, delete movies, and save the collection using Local Storage.                             |
+| 🌤️ Weather App                   | Search for a city and display its current temperature and weather description using the OpenWeatherMap API.                                   |
+| ⌨️ Typing Speed Test              | Generates random typing sentences, measures typing time, calculates WPM, and tracks typing mistakes.                                          |
+| 🔎 GitHub Profile Finder          | Search for a GitHub username and retrieve profile information using the GitHub REST API.                                                      |
+| 🎬 Movie Finder                   | Search for a movie and retrieve its poster, details, cast, rating, runtime, genre, release date, director, and awards using the OMDb API.     |
+| 🎯 Guess The Number Game          | Choose a number range, generate a random number, and receive Higher or Lower hints until the correct number is guessed.                       |
+| 🛒 Simple E-Commerce Cart         | Add products to a shopping cart, remove items, calculate the total, persist cart data with Local Storage, and clear the cart during checkout. |
+| 💰 Expense Tracker                | Add expenses, calculate total spending, delete individual expenses, and persist expense data using Local Storage.                             |
+| ⌨️ Key Press Detector             | Detects keyboard key presses and displays the pressed key on the screen using JavaScript keyboard events.                                     |
+| 📁 File Picker UI                 | Replaces the default file input with a custom button that opens the file selector and displays the selected filename on the button.           |
+| 👤 Dynamic Profile Card Generator | Takes user-provided profile information and dynamically creates profile cards using JavaScript DOM manipulation.                              |
+| 🔐 Email & Password Validator     | Validates email and password input using Regular Expressions and displays appropriate error or success messages.                               |
+| *(More projects coming soon...)*  | 🚧                                                                                                                                            |
 
 ---
 
@@ -54,6 +55,9 @@ The goal of this repository is to:
 - `querySelector()` & `querySelectorAll()`
 - `classList`
 - Keyboard & Change Events
+- Form Validation
+- Regular Expressions
+- Regex `.test()`
 - `async/await` & Promises
 - Fetch API & REST APIs
 - JSON
@@ -82,6 +86,7 @@ My focus is **understanding how things work**, writing the logic myself, debuggi
 - Working with APIs and asynchronous JavaScript
 - Managing application state and Local Storage
 - Handling user input and browser events
+- Validating user input with Regular Expressions
 - Creating dynamic UI components
 - Debugging and solving problems independently
 
