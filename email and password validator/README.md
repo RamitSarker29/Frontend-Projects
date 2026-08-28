@@ -103,7 +103,7 @@ Hello      ❌
 
 ### Empty Form
 
-![Empty Form](screenshots/empty_form.png)
+![Empty Form](./empty_form.png)
 
 ### Invalid Email
 
