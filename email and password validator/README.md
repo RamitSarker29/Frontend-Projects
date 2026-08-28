@@ -107,15 +107,15 @@ Hello      ❌
 
 ### Invalid Email
 
-![Invalid Email](screenshots/invalid_email.png)
+![Invalid Email](./invalid_email.png)
 
 ### Invalid Password
 
-![Invalid Password](screenshots/invalid_password.png)
+![Invalid Password](./invalid_password.png)
 
 ### Valid Email & Password
 
-![Valid Email & Password](screenshots/valid_email_password.png)
+![Valid Email & Password](./valid_email_password.png)
 
 
 ---
